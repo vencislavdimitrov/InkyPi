@@ -1,9 +1,9 @@
-# InkyPi 
+# InkyPi
 
 <img src="./docs/images/inky_clock.jpg" />
 
 
-## About InkyPi 
+## About InkyPi
 InkyPi is an open-source, customizable E-Ink display powered by a Raspberry Pi. Designed for simplicity and flexibility, it allows you to effortlessly display the content you care about, with a simple web interface that makes setup and configuration effortless.
 
 **Features**:
@@ -19,7 +19,7 @@ InkyPi is an open-source, customizable E-Ink display powered by a Raspberry Pi. 
 - Image Upload: Upload and display any image from your browser
 - Newspaper: Show daily front pages of major newspapers from around the world
 - Clock: Customizable clock faces for displaying time
-- AI Image: Generate images from text prompts using OpenAI's DALL·E 
+- AI Image: Generate images from text prompts using OpenAI's DALL·E
 - AI Text: Display dynamic text content using OpenAI's GPT-4o text models
 
 And additional plugins coming soon! For documentation on building custom plugins, see [Building InkyPi Plugins](./docs/building_plugins.md).
@@ -40,7 +40,7 @@ To install InkyPi, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/fatihak/InkyPi.git
+    git clone https://github.com/vencislavdimitrov/InkyPi.git
     ```
 2. Navigate to the project directory:
     ```bash
@@ -53,7 +53,7 @@ To install InkyPi, follow these steps:
 
 After the installation is complete, the script will prompt you to reboot your Raspberry Pi. Once rebooted, the display will update to show the InkyPi splash screen.
 
-Note: 
+Note:
 - The installation script requires sudo privileges to install and run the service. We recommend starting with a fresh installation of Raspberry Pi OS to avoid potential conflicts with existing software or configurations.
 - The installation process will automatically enable the required SPI and I2C interfaces on your Raspberry Pi.
 
@@ -99,7 +99,7 @@ Distributed under the GPL 3.0 License, see [LICENSE](./LICENSE) for more informa
 
 ## Issues
 
-Check out the [troubleshooting guide](./docs/troubleshooting.md). If you're still having trouble, feel free to create an issue on the [GitHub Issues](https://github.com/fatihak/InkyPi/issues) page.
+Check out the [troubleshooting guide](./docs/troubleshooting.md). If you're still having trouble, feel free to create an issue on the [GitHub Issues](https://github.com/vencislavdimitrov/InkyPi/issues) page.
 
 If you're using a Pi Zero W, note that there are known issues during the installation process. See [Known Issues during Pi Zero W Installation](./docs/troubleshooting.md#known-issues-during-pi-zero-w-installation) section in the troubleshooting guide for additional details..
 
